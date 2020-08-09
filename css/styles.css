@@ -1,0 +1,168 @@
+#title{
+  background-color:#6f4a8e
+}
+h1{
+  font-family: 'Oleo Script', cursive;
+  font-size:3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15% ;
+}
+body{
+  font-family: 'Antic Slab', serif;
+}
+/*title image*/
+.title-image{
+  width: 58%;
+transform: rotate(25deg);} /*remember tranfrm rotate agr positive dala toh clckwise negative dala toh anticlockwise*/
+
+
+  /*navbar*/
+.navbar-brand{
+font-family: 'Antic Slab', serif;
+font-weight: bold;
+font-size: 2rem;
+}
+.navbar{
+  padding-bottom: 10%;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Antic Slab', serif;
+}
+
+/*download button;;;;remember to make it specific i added specific class to our button with name download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/*feature section*/
+#features{
+  padding: 60px 20px;
+  margin:2rem;
+  text-align: center;
+  background-color: white;
+}
+.icon{
+  padding:10px;
+  color:#726a95
+}
+.icon:hover {
+  color: #6f4a8e
+}
+h3{
+  color: #6f4a8e ;
+}
+
+p{
+ color: #838383
+}
+.feature-h3{
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+/*-- Testimonials -----*/
+#testimonials{
+  text-align: center;
+  background-color:#726a95
+}
+.testimonal-image{
+  border-radius: 100%;
+  width:8%;
+  margin:20px 20px 55px 20px ;
+}
+.testimonal-text{
+  color: #fff;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 25px 20px 20px 20px ;
+}
+.testimonal-2text{
+  color: #fff;
+  margin: 5px;
+  text-align: center;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+/*-- Press -----*/
+#press{
+    padding-bottom: 15px;
+    text-align: center;
+    background-color:#726a95
+}
+.image-press{
+  margin:20px;
+  width:10%;
+  padding-bottom: 15px;
+}
+
+/* Pricing --*/
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-table{
+  padding:3% 2% ;
+  text-align:center;
+}
+h3{
+  font-family: 'Antic Slab', serif;
+  font-size:2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/*call to action*/
+
+#cta {
+    background-color:#6f4a8e;
+    color: #fff;
+    padding: 7% 15% ;
+    text-align: center;
+}
+.ctafooter{
+font-family: 'Antic Slab', serif;
+font-size: 3.5rem;
+text-align: center;
+line-height: 1.5;
+color: #fff;
+}
+
+/*footer*/
+#footer{
+background-color:#fff;
+padding:3% ;
+text-align: center;
+font-family: 'Antic Slab', serif;
+}
+.fa{
+  margin: 8px;
+}
+.footericon{
+  color:#726a95
+}
+.footericon:hover{
+  color: #6f4a8e
+}
+
+
+
+@media (max-width :1028px) {
+.title-image{
+    position:static;
+    transform: rotate(0);
+}
+#title {
+  text-align: center;
+}
+}
